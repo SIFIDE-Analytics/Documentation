@@ -1,32 +1,32 @@
 site_name: SIFIDE Analytics
+repo_url: https://github.com/SIFIDE-Analytics/SIFIDE-Analytics
+repo_name: SIFIDE-Analytics
 theme:
   name: material
+  logo: assets/logo.svg
+  icon:
+    repo: fontawesome/brands/github
   features:
     - navigation.tabs
-    - navigation.sections
-    - toc.integrate
-    - navigation.top
-    - search.suggest
-    - search.highlight
-    - content.tabs.link
-    - content.code.annotation
-    - content.code.copy
+    - header.autohide
   language: en
   palette:
-    - scheme: default
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
       toggle:
-        icon: material/toggle-switch-off-outline 
+        icon: material/brightness-7
         name: Switch to dark mode
-      primary: blue
-      accent: grey 
-    - scheme: slate 
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
       toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode    
-      primary: blue
-      accent: grey
+        icon: material/brightness-4
+        name: Switch to system preference
 
 extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/SIFIDE-Analytics
+      name: SIFIDE Analytics
