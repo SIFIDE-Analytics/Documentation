@@ -1,11 +1,7 @@
 # Team
 
-## Members
-
-| **Members** | **Role** |
-|:-----------:|:--------:|
-| Alina Trifan | Mentor |
-| Leonardo Flórido | DevOps & Developer |
-| Gabriel Hall | Team Manager & Developer |
-| Guilherme Dias | Architect & Developer |
-| Tomás Almeida | Product Owner & Developer |
+- **Mentor** - Alina Trifan
+- **DevOps & Developer** - Leonardo Flórido
+- **Team Manager & Developer** - Gabriel Hall
+- **Architect & Developer** - Guilherme Dias
+- **Product Owner & Developer** - Tomás Almeida
