@@ -1,6 +1,7 @@
 # Project
 
 ## Context
+[SIFIDE](https://sifide.ani.pt) aims to increase the competitiveness of companies by supporting their efforts in research and development through a deduction from corporate income tax (IRC) for a percentage of their R&D (Research and Development) expenses (in the portion not reimbursed through grants from the State or European Funds).
 
 ## Problems
 - Data analysis is poor and depends on excel
