@@ -30,5 +30,4 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/SIFIDE-Analytics
       name: SIFIDE Analytics
-      extra:
   generator: false
