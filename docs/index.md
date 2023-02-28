@@ -11,8 +11,16 @@
 - Missing dashboard
 
 ## Goals & Expected Results
-- Accessibility
-- Data visualisation
-- Data exportation
+- Increase user productivity
+- Simplify data analysis
+- Enhance data visualization
+- Empower decision making
+- Increase data insights
 
-Develop a dashboard with and intuitive and accessible UI for all users. Allow the creation of custom filters and queries to improve data analysis. Provide clear and informative data visualisation to improve user understanding. Moreover, allow for data exports in various formats.
+## Task Plan
+1. Study how SIFIDE platform works
+2. Define which data to collect
+3. Define reporting mechanisms
+4. Implementation of the communication and data extraction services from SIFIDE platform
+5. Develop a dashboard that allows data visualisation, analysis and exportation
+6. Performance analysis using tests in a simulated environment
