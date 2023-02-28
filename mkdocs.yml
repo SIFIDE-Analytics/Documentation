@@ -24,10 +24,12 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to system preference
-
 extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/SIFIDE-Analytics
       name: Repository
+    - icon: assets/logo.svg
+      link: https://sifide.ani.pt/
+      name: SIFIDE
   generator: false
