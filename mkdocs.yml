@@ -29,7 +29,4 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/SIFIDE-Analytics
       name: Repository
-    - logo: assets/logo.svg
-      link: https://sifide.ani.pt/
-      name: SIFIDE
   generator: false
