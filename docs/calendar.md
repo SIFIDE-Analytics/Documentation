@@ -1,6 +1,5 @@
 # Calendar
 
-## Milestones
 ### M1: 14/02 - 28/02
 - Lifecycle goals
 - Project calendar
