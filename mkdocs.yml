@@ -1,6 +1,6 @@
 site_name: SIFIDE Analytics
 repo_url: https://github.com/SIFIDE-Analytics/SIFIDE-Analytics
-repo_name: SIFIDE Analytics
+repo_name: SIFIDE-Analytics
 theme:
   name: material
   logo: assets/logo.svg
