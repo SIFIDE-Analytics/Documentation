@@ -28,6 +28,26 @@
       <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+      <style>
+         .file-share-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 1.2em;
+         }
+         
+         .file-share-table th, .file-share-table td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+            color: #fff;
+         }
+         
+         .file-share-table th {
+            background-color: #333;
+         }
+         
+         
+         </style>
    </head>
    <!-- body -->
    <body class="main-layout">
@@ -39,11 +59,11 @@
       <div id="mySidepanel" class="sidepanel">
          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
          <a href="index.html">Home</a>
-         <a href="#about">About</a>
-         <a href="#we_Do">We Do</a>
+         <a href="#about">Context</a>
          <a href="#team">Our Team</a>
-         <a href="#testimonial">Testimonial</a>
+         <a href="#we_Do">Goals & Expected Results</a>
          <a href="#contact">Contact Us</a>
+         <a href="#testimonial">Mentors</a>
       </div>
       <!-- header -->
       <header>
@@ -52,9 +72,6 @@
             <div class="container-fluid">
                <div class="row">
                   <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
-                     <div class="sea_icon d_none ">
-                        <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
-                     </div>
                   </div>
                   <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col logo_section">
                      <div class="full">
@@ -91,7 +108,7 @@
                         <div class="text-bg">
                            <h1>SIFIDE</h1>
                            <span>Analytics</span>
-                           <a class="read_more" href="#">About Us</a>
+                           <a class="read_more" href="https://github.com/SIFIDE-Analytics/SIFIDE-Analytics">GitHub</a>
                            <!-- <ul class="social_team">
                               <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                               <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
@@ -171,68 +188,6 @@
          </div>
       </div>
       <!-- about section -->
-      <!-- software section -->
-      <div class="software">
-         <div class="container-fluid">
-            <div class="row d_flex">
-               <div class="col-md-6">
-                  <div class="titlepage">
-                     <h2>Software Maker</h2>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </p>
-                     <a class="read_more" href="#">Click here</a>
-                  </div>
-               </div>
-               <div class="col-md-6 padding_right2">
-                  <div class="software_img">
-                     <figure><img src="images/software_img.jpg" alt="#"/></figure>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- software section -->
-      <!-- We Do section -->
-      <div id="we_Do" class="we_do">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="titlepage">
-                     <h2>Goals and expected results</h2>
-                     <p>Our main goal is to Develop a dashboard that allows data visualization, analysis and exportation. </p>
-                  </div>
-               </div>
-            </div>
-            <div class="row">
-               <div class="col-md-4">
-                  <div id="hover_color" class="we_box">
-                     <span>1</span>
-                     <h3>Data Science Accelaration</h3>
-                     <p>Enhance data visualization.
-                        Empower decision making.
-                        Increase data insights.​</p>
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div id="hover_color" class="we_box">
-                     <span>2</span>
-                     <h3>All In One <br>Place</h3>
-                     <p>All-in-one dashboard designed to increase user productivity and simplify data analysis.</p>
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div id="hover_color" class="we_box">
-                     <span>3</span>
-                     <h3>Data<br> Exportation</h3>
-                     <p>Possibility to export data to csv file or pdf.</p>
-                  </div>
-               </div>
-               <!-- <div class="col-md-12">
-                  <a class="read_more" href="#">Read More</a>
-               </div> -->
-            </div>
-         </div>
-      </div>
-      <!-- end We Do section -->
       <!-- Our  team section -->
       <div id="team" class="team">
          <div class="container">
@@ -302,6 +257,71 @@
          </div>
       </div>
       <!-- end Our  team section -->
+      
+      <!-- We Do section -->
+      <div id="we_Do" class="we_do">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2>Goals and expected results</h2>
+                     <p>Our main goal is to Develop a dashboard that allows data visualization, analysis and exportation. </p>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-4">
+                  <div id="hover_color" class="we_box">
+                     <span>1</span>
+                     <h3>Data Science Accelaration</h3>
+                     <p>Enhance data visualization.
+                        Empower decision making.
+                        Increase data insights.​</p>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div id="hover_color" class="we_box">
+                     <span>2</span>
+                     <h3>All In One <br>Place</h3>
+                     <p>All-in-one dashboard designed to increase user productivity and simplify data analysis.</p>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div id="hover_color" class="we_box">
+                     <span>3</span>
+                     <h3>Data<br> Exportation</h3>
+                     <p>Possibility to export data to csv file or pdf.</p>
+                  </div>
+               </div>
+               <!-- <div class="col-md-12">
+                  <a class="read_more" href="#">Read More</a>
+               </div> -->
+            </div>
+         </div>
+      </div>
+      <!-- end We Do section -->
+      <!-- software section -->
+      <div class="software">
+         <div class="container-fluid">
+            <div class="row d_flex">
+               <div class="col-md-6">
+                  <div class="titlepage">
+                     <h2>Architecture</h2>
+                     <p>Here is the diagram of the architecture we decided to use: </p>
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <div class="architecture-img">
+                    <figure>
+                      <img style="height: 100%;" src="images/arch.png" alt="Architecture diagram"/>
+                    </figure>
+                  </div>
+                </div>
+              
+            </div>
+         </div>
+      </div>
+      <!-- software section -->
       <!-- contact section -->
       <div id="contact" class="contact">
          <div class="container">
@@ -317,31 +337,13 @@
          <div class="con_bg">
             <div class="container-fluid">
                <div class="row">
-                  <div class="col-md-6">
-                     <form id="request" class="main_form">
-                        <div class="row">
-                           <div class="col-md-6">
-                              <ul class="location_form">
-                                 <li><a><i  aria-hidden="true"></i></a>gabriel.hall@ua.pt</li>
-                              </ul>
-                           </div>
-                           <div class="col-md-6">
-                              <ul class="location_form">
-                                 <li><a><i aria-hidden="true"></i></a>gabriel.hall@ua.pt</li>
-                              </ul>
-                           </div>
-                           <div class="col-md-6">
-                              <ul class="location_form">
-                                 <li><a><i  aria-hidden="true"></i></a>gabriel.hall@ua.pt</li>
-                              </ul>
-                           </div>
-                           <div class="col-md-6">
-                              <ul class="location_form">
-                                 <li><a><i aria-hidden="true"></i></a>gabriel.hall@ua.pt</li>
-                              </ul>
-                           </div>
-                        </div>
-                     </form>
+                  <div class="col-md-6" >
+                     <div class="titlepage" style="padding: 30%;">
+                        <h2 style="color: aliceblue;">Our e-mails</h2>
+                        <p style="color: aliceblue">gabriel.hall@ua.pt <br>
+                           leonardodsf@ua.pt<br>guilherme.loureiro.dias@ua.pt<br>tomasalmeida8@ua.pt
+                        </p>
+                     </div>
                   </div>
                   <div class="col-md-6">
                      <div class="map_section">
@@ -381,10 +383,14 @@
                                  <div class="row">
                                     <div class="col-md-12">
                                        <div class="testimonial_box">
-                                          <figure><img src="images/our.png" alt="#"/></figure>
-                                          <h3>Due markes <br><span class="blu">Rental</span></h3>
-                                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit ess</p>
-                                          <i><img src="images/test.png" alt="#"/></i>
+                                          <figure><img src="images/alina.png" alt="#"/></figure>
+                                          <h3>Alina Trifan <br><span class="blu">Project Mentor</span></h3>
+                                          <br>
+                                          <br>
+                                          <p>Our mentor Alina Trifan can be contacted through <a href="https://www.linkedin.com/in/alina-trifan-a708317b/">linkedin</a>.</p>
+                                          <p>Here's her <a href="https://www.ua.pt/pt/p/80334687">Universidade de Aveiro page </a>.</p>
+                                          <br>
+                                          <p>E-mail: alina.trifan@ua.pt</p>
                                        </div>
                                     </div>
                                  </div>
@@ -397,10 +403,14 @@
                                  <div class="row">
                                     <div class="col-md-12">
                                        <div class="testimonial_box">
-                                          <figure><img src="images/our.png" alt="#"/></figure>
-                                          <h3>Due markes <br><span class="blu">Rental</span></h3>
-                                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit ess</p>
-                                          <i><img src="images/test.png" alt="#"/></i>
+                                          <figure><img src="images/orp.png" alt="#"/></figure>
+                                          <h3>Osvaldo Pacheco <br><span class="blu">PI Professor</span></h3>
+                                          <br>
+                                          <br>
+                                          <p>Our Professor Osvaldo Pacheco can only be contacted through e-mail.</p>
+                                          <p>Here's his <a href="https://www.ua.pt/pt/p/10313442">Universidade de Aveiro page</a>.</p>
+                                          <br>
+                                          <p>E-mail: orp@ua.pt</p>
                                        </div>
                                     </div>
                                  </div>
@@ -414,10 +424,14 @@
                                     <div class="col-md-12">
                                        <div class="full cross_layout">
                                           <div class="testimonial_box">
-                                             <figure><img src="images/our.png" alt="#"/></figure>
-                                             <h3>Due markes <br><span class="blu">Rental</span></h3>
-                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit ess</p>
-                                             <i><img src="images/test.png" alt="#"/></i>
+                                             <figure><img src="images/aguiar.png" alt="#"/></figure>
+                                             <h3>Rui Aguiar <br><span class="blu">PI Professor</span></h3>
+                                             <br>
+                                             <br>
+                                             <p>Our Professor Rui Aguiar can be contacted through <a href="https://www.linkedin.com/in/rui-lu%C3%ADs-aguiar-046719/?originalSubdomain=pt">linkedin</a>.</p>
+                                             <p>Here's his <a href="https://www.ua.pt/pt/p/10312784">Universidade de Aveiro page </a>.</p>
+                                             <br>
+                                             <p>E-mail: ruilaa@ua.pt</p>
                                           </div>
                                        </div>
                                     </div>
@@ -438,40 +452,59 @@
          </div>
       </div>
       <!-- end testimonial section -->
+      <div id="team" class="team">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2>File Share</h2>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-12">
+                  <table class="file-share-table">
+                     <thead>
+                        <tr>
+                           <th>Name</th>
+                           <th>Date</th>
+                           <th>Download</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>SIFIDE Analytics proposal</td>
+                           <td>April 10, 2023</td>
+                           <td><a href="https://drive.google.com/file/d/1M4zv2cEVhb2mIKxFEDE-Dc7Aj99xxDQe/view?usp=sharing" download>Download</a></td>
+                        </tr>
+                        <tr>
+                           <td>M1 - Inception</td>
+                           <td>April 10, 2023</td>
+                           <td><a href="https://drive.google.com/file/d/1GK2RDCXTcaFFBg7cwK1GUvyUvhhkPdHy/view?usp=sharing" download>Download</a></td>
+                        </tr>
+                        <tr>
+                           <td>M2 - Elaboration</td>
+                           <td>April 10, 2023</td>
+                           <td><a href="https://drive.google.com/file/d/1hwiFPZzfobMxdQUe86LNQXY0KruWdgx9/view?usp=sharing" download>Download</a></td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end file share section -->
+      
       <!--  footer -->
       <footer>
          <div class="footer">
             <div class="container">
-               <div class="row">
-                  <div class="col-md-4">
-                     <h3>Useful links</h3>
-                     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, </p>
-                  </div>
-                  <div class="col-md-4">
-                     <div class="fid_box">
-                        <h3>Find us  </h3>
-                        <ul class="location_icon">
-                           <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i></a><br> It is a long established fact that a <br>reader will be distracted</li>
-                           <li><a href="#"><i class="fa fa-phone" aria-hidden="true"></i></a><br>
-                              (+71) 1234567890<br> (+71) 1234567890
-                           </li>
-                           <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a><br> demo@gmail.com</li>
-                        </ul>
-                     </div>
-                  </div>
-                  <div class="col-md-4">
-                     <div class="fid_box">
-                        <h3>News letter</h3>
-                        <form class="news_form">
-                           <input class="letter_form" placeholder=" Email" type="text" name="Email">
-                           <button class="sumbit">Subscribe</button>
-                        </form>
-                        <ul class="social_icon">
-                           <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                           <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                           <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-                           <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                        </ul>
+               <div class="copyright" >
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-md-12" >
+                           <p>© 2019 All Rights Reserved. Design by<a href="https://html.design/"> Free Html Templates</a></p>
+                        </div>
                      </div>
                   </div>
                </div>
